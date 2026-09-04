@@ -1,0 +1,7 @@
+fastapi
+pydantic
+aiokafka
+uvicorn[standard]
+python-multipart
+beautifulsoup4
+pydantic-settings

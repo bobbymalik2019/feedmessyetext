@@ -1,0 +1,17 @@
+[project]
+name = "platform-common"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bobbymalik2019", email = "writetobobby@yahoo.com.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+platform-common = "platform_common:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
